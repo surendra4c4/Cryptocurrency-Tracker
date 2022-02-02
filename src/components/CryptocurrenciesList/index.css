@@ -1,0 +1,67 @@
+/* Write your CSS code here */
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #00e7ff;
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+
+.image {
+  height: 200px;
+  width: 520px;
+}
+
+.curency-details-container {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #00e7ff;
+  border-radius: 8px;
+  width: 75%;
+}
+
+.upper-container {
+  background-color: #092e33;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.coin-type {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+
+.coin-euro {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.coin-usd {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-right: 40px;
+}
+
+.usd-euro-container {
+  display: flex;
+  align-items: center;
+}
+
+.ul-list-container {
+  padding-left: 0px;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+}
